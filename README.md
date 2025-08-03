@@ -32,11 +32,10 @@ It can listen, process, and respond intelligently with voice.
    source venv/bin/activate   
    Windows: venv\Scripts\activate
    
-   
+   ```
 3. Configuration
    ```
    Create a .env file in the project root:
-   
    LIVEKIT_URL=ws://localhost:7880
    LIVEKIT_API_KEY=your_api_key
    LIVEKIT_API_SECRET=your_api_secret
