@@ -26,33 +26,37 @@ It can listen, process, and respond intelligently with voice.
    cd jarvis-ai
 
 ## Project Structure
-
+```
 ├── agent.py # Main AI agent logic
 ├── prompt.py # Agent instructions and response templates
 ├── requirements.txt # Python dependencies
 ├── .env # Environment variables (not uploaded to GitHub)
 ├── .gitignore # Files and folders ignored by Git
 └── README.md # Project documentation
-
+```
+```
 2. Create and activate a virtual environment
 
 python -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
-
+```
+```
 3. Configuration
 Create a .env file in the project root:
 
 LIVEKIT_URL=ws://localhost:7880
 LIVEKIT_API_KEY=your_api_key
 LIVEKIT_API_SECRET=your_api_secret
-
+```
+```
 4.Generate Requirements
 
 If you add new libraries, update requirements.txt:
 pip freeze > requirements.txt
-
+```
+```
 5.Run the Agent
 python agent.py
-
+```
 
 
